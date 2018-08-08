@@ -4,9 +4,201 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Platzi Blog</title>
 </head>
 <body>
-    
+    <!-- menu de la pagina -->
+    <header class="header">
+        <figure class="logotipo">
+            <img src="images/platzilogo.png" alt="logo de platzi" width="89" height="28">
+        </figure>
+        <nav class="menu">
+            <ul>
+                <li class="after">
+                    <a href="#">Cursos</a>
+                </li>
+                <li class="after current">
+                    <a href="#">Blog</a>
+                </li>
+                <li class="after">
+                    <a href="#">FAQ</a>
+                </li>
+                <li class="after">
+                    <a href="#">Horarios</a>
+                </li>
+                <li>
+                    <a href="#">Live</a>
+                </li>
+                <li>
+                    <input type="submit" value="Inicia sesión" class="button">
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- barra de busqueda -->
+    <section class="searchBar">
+        <input type="text" placeholder=" Buscar...">
+        <button type="submit"><i class="fa fa-search"></i></button>
+    </section> 
+    <!-- Seccion principal -->
+    <section class="container">
+        <article class="portada">
+            <a href="#" class="card">
+                <div>
+                    <h2>Consejos que aumentarán tu efectividad al trabajar desde casa</h2>
+                </div>
+                <div class="info-post">
+                    <label><i class="fa fa-user-circle"></i> Leticia Ferrer Mur</label>
+                    <label> abril 15 2016</label>
+                </div>  
+            </a>
+        </article>
+    </section>
+    <section class="container" id="posts">
+        <div class="post-row">
+            <a href="#posts" class="articulo">
+                <img src="images/csharp.jpg" alt="">
+                <h3>Cómo definir un Namespace en C#</h3>
+                <div class="info-post">
+                    <label>Juan Castro Lurita</label>
+                    <label>abril 13 2016</label>
+                </div>
+            </a>        
+            <a href="#posts" class="articulo">
+                <img src="images/facebook.jpg" alt="">
+                <h3>Todo lo que Facebook anunció en F8</h3>
+                <div class="info-post">
+                    <label>winiberto</label>
+                    <label>abril 12 2016</label>
+                </div>
+            </a>        
+            <a href="#posts" class="articulo">
+                <img src="images/android.jpg" alt="">
+                <h3>Lo nuevo en Android Studio 2.0</h3>
+                <div class="info-post">
+                    <label>Uriel Ramirez</label>
+                    <label>abril 12 2016</label>
+                </div>
+            </a>        
+        </div>
+        <div class="post-row">
+            <a href="#posts" class="articulo">
+                <img src="images/react.jpg" alt="">
+                <h3>Lo que tienes que saber sobre React 15</h3>
+                <div class="info-post">
+                    <label>Leonidas Esteba</label>
+                    <label>abril 11 2016</label>
+                </div>
+            </a>        
+            <a href="#posts" class="articulo">
+                <img src="images/json-go.png" alt="">
+                <h3>Paso a paso: cómo trabajar con JSON en Go</h3>
+                <div class="info-post">
+                    <label>Juan Castro Lurita</label>
+                    <label>abril 8 2016</label>
+                </div>
+            </a>        
+            <a href="#posts" class="articulo">
+                <img src="images/libros-web.jpg" alt="">
+                <h3>5 libros que deberias leer para aprender Diseño de Producto</h3>
+                <div class="info-post">
+                    <label>Luis lulo López Mendez</label>
+                    <label>abril 7 2016</label>
+                </div>
+            </a>        
+        </div>
+        <div class="post-row">
+            <a href="#posts" class="articulo">
+                <img src="images/platzi-stream.jpg" alt="">
+                <h3>Platzi Stream cambia de horaio esta semana</h3>
+                <div class="info-post">
+                    <label>Anna Heim</label>
+                    <label>abril 5 2016</label>
+                </div>
+            </a>        
+            <a href="#posts" class="articulo">
+                <img src="images/tarjetas.jpg" alt="">
+                <h3>5 recomendaciones para proteger datos personales en tu negocio</h3>
+                <div class="info-post">
+                    <label>Germán Realpe Delgado</label>
+                    <label>marzo 17 2016</label>
+                </div>
+            </a>        
+            <a href="#posts" class="articulo">
+                <img src="images/gemas.jpg" alt="">
+                <h3>10 gemas para desarrollar con Ruby on Rails</h3>
+                <div class="info-post">
+                    <label>Juan Castro Lurita</label>
+                    <label>marzo 17 2016</label>
+                </div>
+            </a>        
+        </div>
+        <div class="post-row">
+            <a href="#posts" class="articulo"> 
+                <img src="images/google-analytics.jpg" alt="">
+                <h3>Lo que tienes que saber sobre Google Analytics 360 Suite</h3>
+                <div class="info-post">
+                    <label>Anna Heim</label>
+                    <label>marzo 16 2016</label>
+                </div>
+            </a>        
+            <a href="#posts" class="articulo">
+                <img src="images/adobe-xd.jpg" alt="">
+                <h3>Primeras impresiones de Adobe Experience Design</h3>
+                <div class="info-post">
+                    <label>Jennifer López</label>
+                    <label>marzo 15 2016</label>
+                </div>
+            </a>        
+            <a href="#posts" class="articulo">
+                <img src="images/origen-ruby.png" alt="">
+                <h3>El origen de Ruby on Rails, el framework orientado a la felicidad</h3>
+                <div class="info-post">
+                    <label>Yare Saavedra</label>
+                    <label>marzo 14 2016</label>
+                </div>
+            </a>        
+        </div>
+        <div class="post-row" class="articulo">
+            <a href="#posts">
+                <img src="images/iconografia.jpg" alt="">
+                <h3>Aprende a crear iconografia perfecta</h3>
+                <div class="info-post">
+                    <label>Jennifer López</label>
+                    <label>marzo 11 2016</label>
+                </div>
+            </a>        
+            <a href="#posts" class="articulo">
+                <img src="images/mkt-musicos.jpg" alt="">
+                <h3>Tips de marketing digital para músicos</h3>
+                <div class="info-post">
+                    <label>Armando Sarabia</label>
+                    <label>marzo 7 2016</label>
+                </div>
+            </a>        
+            <a href="#posts" class="articulo">
+                <img src="images/3d-touch.jpg" alt="">
+                <h3>Agrega 3D Touch y Force Touch a tus proyectos web</h3>
+                <div class="info-post">
+                    <label>Uriel Ramirez </label>
+                    <label>marzo 3 2016</label>
+                </div>
+            </a>        
+        </div>
+        <div class="paginacion">
+            <p>Página 1 de 23</p>
+            <div class="pages">
+                <input type="button" value="1" class="selected boton-page">
+                <input type="button" value="2" class="boton-page">
+                <input type="button" value="3" class="boton-page">
+                <input type="button" value="4" class="boton-page">
+                <input type="button" value="Siguiente >" class="boton-page">
+                <input type="button" value="Última página >>" class="boton-page">
+            </div>
+        </div>
+    </section>
 </body>
 </html>
